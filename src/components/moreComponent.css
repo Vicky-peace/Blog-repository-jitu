@@ -1,0 +1,65 @@
+.challenge{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+.para-1{
+    margin: 0.8rem;
+    padding: 0.8rem;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.para-1:hover{
+    background-color: bisque;
+}
+.para-2{
+    margin: 0.8rem;
+    padding: 0.8rem;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.para-2:hover{
+    background-color: bisque;
+}
+.para-3{
+    margin: 0.8rem;
+    padding: 0.8rem;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.para-3:hover{
+    background-color: bisque;
+}
+.para-4{
+    margin: 0.8rem;
+    padding: 0.8rem;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.para-4:hover{
+    background-color: bisque;
+}
+.para-5{
+    margin: 0.8rem;
+    padding: 0.8rem;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.para-5:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+    .challenge {
+      grid-template-columns: 1fr; /* Display a single column on small screens */
+    }
+  
+    .para-1,
+    .para-2,
+    .para-3,
+    .para-4,
+    .para-5 {
+      margin: 0.8rem 0; /* Adjust margin for better spacing on small screens */
+    }
+  }
+  

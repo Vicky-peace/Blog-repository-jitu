@@ -1,0 +1,25 @@
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+.main-left{
+    border: 1px solid gainsboro;
+    margin: .5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.main-right{
+    border: 1px solid gainsboro;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+/* Media query for small screens */
+
+@media (max-width: 768px){
+    .main{
+        grid-template-columns: 1fr; /*Display only one component*/
+    }
+}
